@@ -313,7 +313,7 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid #df5277; }
   .form__input:focus:invalid {
-    border-bottom: 3px solid #ff7730; }
+    border-bottom: 3px solid #6C9EA0; }
   .form__input::-webkit-input-placeholder {
     color: #999; }
 
@@ -488,11 +488,11 @@ body {
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+        background-image: linear-gradient(to right bottom, #79D8CA, #6C9EA0); }
       .card__side--back-2 {
         background-image: linear-gradient(to right bottom, #eecda3, #ef629f); }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
+        background-image: linear-gradient(to right bottom, #a09ad3, #5643fa); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -506,11 +506,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #79D8CA, #6C9EA0), url(../mboutique/images/mac-5.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #eecda3, #ef629f), url(../img/nat-6.jpg); }
+      background-image: linear-gradient(to right bottom, #eecda3, #ef629f), url(../mboutique/images/mac-6.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
+      background-image: linear-gradient(to right bottom, #a09ad3, #5643fa), url(../mboutique/images/mac-4.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -527,11 +527,11 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(121, 216, 202, 0.85), rgba(108, 158, 160, 0.85)); }
     .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(238, 205, 163, 0.85), rgba(239, 98, 159, 0.85)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(160, 154, 211, 0.85), rgba(86, 67, 250, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
@@ -946,8 +946,9 @@ body {
       padding: 10rem 0; } }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
-  background-size: 100%;
+  background-image: linear-gradient(105deg, rgba(224, 220, 220, 0.9) 0, rgba(255, 217, 217, 0.9) 50%, transparent 50%), url(../mboutique/images/gifts-parties-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
   @media (max-width: 75em) {
