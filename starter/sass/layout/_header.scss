@@ -16,6 +16,8 @@
         position: absolute;
         top: 4rem;
         left: 4rem;
+        filter: opacity(50%);
+        display: none;
 
     }
     &__logo {
