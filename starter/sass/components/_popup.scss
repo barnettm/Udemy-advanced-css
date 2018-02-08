@@ -33,6 +33,11 @@
         display: table-cell;
 
 
+        @include respond(tab-land){
+            display: none;
+        }
+
+
     }
     &__right {
         width: 66.6666667;
