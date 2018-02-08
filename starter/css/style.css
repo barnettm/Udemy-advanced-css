@@ -110,7 +110,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  background-image: linear-gradient(to right, #eecda3, #ef629f);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -191,10 +191,10 @@ body {
     background-color: #fff; }
 
 .btn--green {
-  background-color: #55c57a;
+  background-color: #df5277;
   color: #fff; }
   .btn--green::after {
-    background-color: #55c57a; }
+    background-color: #df5277; }
 
 .btn::after {
   content: '';
@@ -214,16 +214,16 @@ body {
   animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
-  color: #55c57a;
+  color: #df5277;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #55c57a;
+  border-bottom: 1px solid #df5277;
   padding: 3px;
   font-size: 1.6rem;
   transition: all .2s; }
 
 .btn-text:hover {
-  background-color: #55c57a;
+  background-color: #df5277;
   color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
@@ -286,7 +286,7 @@ body {
           top: 1rem;
           transform: scale(1.1); } }
     .composition__photo:hover {
-      outline: 1.5rem solid #55c57a;
+      outline: 1.5rem solid #df5277;
       transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
@@ -311,9 +311,9 @@ body {
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid #55c57a; }
+    border-bottom: 3px solid #df5277; }
   .form__input:focus:invalid {
-    border-bottom: 3px solid #ff7730; }
+    border-bottom: 3px solid #6C9EA0; }
   .form__input::-webkit-input-placeholder {
     color: #999; }
 
@@ -333,6 +333,10 @@ body {
 .form__radio-group {
   width: 49%;
   display: inline-block; }
+  @media (max-width: 56.25rem) {
+    .form__radio-group {
+      width: 100%;
+      margin-bottom: 2rem; } }
 
 .form__radio-input {
   display: none; }
@@ -346,7 +350,7 @@ body {
 .form__radio-button {
   height: 3rem;
   width: 3rem;
-  border: 5px solid #55c57a;
+  border: 5px solid #df5277;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
@@ -362,7 +366,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #55c57a;
+    background-color: #df5277;
     opacity: 0;
     transition: opacity .2s; }
 
@@ -384,7 +388,7 @@ body {
     font-size: 6rem;
     margin-bottom: .5rem;
     display: inline-block;
-    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    background-image: linear-gradient(to right, #eecda3, #ef629f);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent; }
@@ -421,6 +425,9 @@ body {
   .popup__left {
     width: 33.3333333%;
     display: table-cell; }
+    @media (max-width: 75em) {
+      .popup__left {
+        display: none; } }
   .popup__right {
     width: 66.6666667;
     display: table-cell;
@@ -461,7 +468,7 @@ body {
     display: inline-block;
     line-height: 1rem; }
   .popup__close:hover {
-    color: #55c57a; }
+    color: #df5277; }
 
 .card {
   perspective: 150rem;
@@ -484,11 +491,11 @@ body {
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+        background-image: linear-gradient(to right bottom, #79D8CA, #6C9EA0); }
       .card__side--back-2 {
-        background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+        background-image: linear-gradient(to right bottom, #eecda3, #ef629f); }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
+        background-image: linear-gradient(to right bottom, #a09ad3, #5643fa); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -502,11 +509,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #79D8CA, #6C9EA0), url(../mboutique/images/mac-5.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/nat-6.jpg); }
+      background-image: linear-gradient(to right bottom, #eecda3, #ef629f), url(../mboutique/images/mac-6.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
+      background-image: linear-gradient(to right bottom, #a09ad3, #5643fa), url(../mboutique/images/mac-4.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -523,11 +530,11 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(121, 216, 202, 0.85), rgba(108, 158, 160, 0.85)); }
     .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(238, 205, 163, 0.85), rgba(239, 98, 159, 0.85)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(160, 154, 211, 0.85), rgba(86, 67, 250, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
@@ -596,6 +603,14 @@ body {
   padding-left: 9rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
+  @media (max-width: 56.25rem) {
+    .story {
+      width: 100%;
+      padding: 4rem;
+      padding-left: 7rem; } }
+  @media (max-width: 37.5em) {
+    .story {
+      transform: skewX(0); } }
   .story__shape {
     width: 15rem;
     height: 15rem;
@@ -607,13 +622,19 @@ body {
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
     overflow: hidden; }
+    @media (max-width: 37.5em) {
+      .story__shape {
+        transform: translateX(-3rem) skewX(0); } }
   .story__img {
     height: 100%;
-    transform: translateX(-4rem) scale(1.4);
+    transform: translateX(-4rem) scale(1.3);
     backface-visibility: hidden;
     transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
+    @media (max-width: 37.5em) {
+      .story__text {
+        transform: skew(0); } }
   .story__caption {
     position: absolute;
     top: 50%;
@@ -673,7 +694,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(238, 205, 163, 0.8), rgba(239, 98, 159, 0.8)), url(../mboutique/images/welcome-image.png);
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -686,7 +707,9 @@ body {
   .header__logo-box {
     position: absolute;
     top: 4rem;
-    left: 4rem; }
+    left: 4rem;
+    filter: opacity(50%);
+    display: none; }
   .header__logo {
     height: 3.5rem; }
   .header__text-box {
@@ -708,7 +731,7 @@ body {
 
 .footer {
   background-color: #333;
-  padding: 10rem 0;
+  padding: 4rem 0;
   font-size: 1.4rem; }
   @media (max-width: 56.25rem) {
     .footer {
@@ -744,7 +767,7 @@ body {
     display: inline-block;
     transition: all .2s; }
   .footer__link:hover, .footer__linkactive {
-    color: #55c57a;
+    color: #df5277;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     transform: rotate(5deg) scale(1.3); }
   .footer__copyright {
@@ -774,7 +797,7 @@ body {
   cursor: pointer; }
   @media (max-width: 56.25rem) {
     .navigation__button {
-      top: 4rem;
+      top: 2rem;
       right: 4rem; } }
   @media (max-width: 37.5em) {
     .navigation__button {
@@ -788,17 +811,17 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#7ed56f, #28b485);
+  background-image: radial-gradient(#eecda3, #ef629f);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
   @media (max-width: 56.25rem) {
     .navigation__background {
-      top: 4.5rem;
+      top: 2.5rem;
       right: 4.5rem; } }
   @media (max-width: 37.5em) {
     .navigation__background {
-      top: 3rem;
-      right: 3rem; } }
+      top: 3.5rem;
+      right: 3.5rem; } }
 
 .navigation__nav {
   height: 100vh;
@@ -839,7 +862,7 @@ body {
 
 .navigation__link:hover, .navigation__linkactive {
   background-position: 100%;
-  color: #55c57a;
+  color: #df5277;
   transform: translateX(1rem); }
 
 .navigation__checkbox:checked ~ .navigation__background {
@@ -895,7 +918,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(238, 205, 163, 0.8), rgba(239, 98, 159, 0.8)), url(../mboutique/images/our-macarons-image.png);
   background-size: cover;
   margin-top: -10rem;
   transform: skewY(-7deg); }
@@ -922,17 +945,31 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+  background-image: linear-gradient(to right bottom, #eecda3, #ef629f); }
   @media (max-width: 56.25rem) {
     .section-book {
       padding: 10rem 0; } }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(224, 220, 220, 0.9) 0, rgba(255, 217, 217, 0.9) 50%, transparent 50%), url(../mboutique/images/gifts-parties-image.png);
   background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
-  height: 50rem; }
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
+  @media (max-width: 75em) {
+    .book {
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../mboutique/images/gifts-parties-image.png);
+      background-size: cover; } }
+  @media (max-width: 56.25rem) {
+    .book {
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0, rgba(255, 255, 255, 0.9) 100%, transparent 65%), url(../mboutique/images/gifts-parties-image.png);
+      background-size: cover; } }
   .book__form {
     width: 50%;
     padding: 6rem; }
+    @media (max-width: 75em) {
+      .book__form {
+        width: 65%; } }
+    @media (max-width: 56.25rem) {
+      .book__form {
+        width: 100%; } }
